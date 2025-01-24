@@ -1,0 +1,13 @@
+services:
+  web:
+    read_only: false
+    build:
+      context: ${PWD}
+      dockerfile: ${PWD}/${DOCKERFILE}
+    image: "${DOCKERIMAGE}"
+    ports:
+      - '80:80'
+    expose:
+      - 80
+    volumes:
+      - /tmp/scratch:/tmp/scratch

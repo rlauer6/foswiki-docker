@@ -1,0 +1,11 @@
+Fri Jan 24 17:05:31 2025  Rob Lauer  <rlauer6@comcast.net>
+
+	[1.0 - BigBang]:
+	* ChangeLog: new
+	* Dockerfile: new
+	* README.md: new
+	* bookworm-backports.list: new
+	* debian.env: new
+	* docker-compose.yml: new
+	* foswiki.conf: new
+	* start-foswiki: new
