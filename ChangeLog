@@ -1,3 +1,17 @@
+Sat Jan 25 11:31:24 2025  Rob Lauer  <rlauer6@comcast.net>
+
+	[1.1]
+	* Makefile: new
+	* Dockerfile
+	- add JSON::XS
+	- copy LocalSite.cfg to context
+	- set permissions for above
+	- create a /tmp/scratch for getting tarball
+	* docker-compose.yaml
+	- mount a local version of LocalSite.cfg
+	- mount a local version of the wiki
+	* README.MD
+
 Fri Jan 24 17:05:31 2025  Rob Lauer  <rlauer6@comcast.net>
 
 	[1.0 - BigBang]:
